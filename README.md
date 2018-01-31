@@ -5,7 +5,7 @@
 ![Ceph Daemon Automated](https://img.shields.io/docker/automated/ceph/daemon.svg)
 ![Ceph Daemon Build Status](https://img.shields.io/docker/build/ceph/daemon.svg)
 
-### It fork from ![https://github.com/ceph/ceph-container.git](https://github.com/ceph/ceph-container.git).In future,if it has bugs,please post issues to the github site and someone will lend a hand - ![https://github.com/ceph/ceph-container/issues](https://github.com/ceph/ceph-container/issues).
+### It fork from [https://github.com/ceph/ceph-container.git](https://github.com/ceph/ceph-container.git).In future,if it has bugs,please post issues to the github site and someone will lend a hand - [https://github.com/ceph/ceph-container/issues](https://github.com/ceph/ceph-container/issues).
 
 Ceph-related Docker files.
 
