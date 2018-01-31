@@ -5,6 +5,8 @@
 ![Ceph Daemon Automated](https://img.shields.io/docker/automated/ceph/daemon.svg)
 ![Ceph Daemon Build Status](https://img.shields.io/docker/build/ceph/daemon.svg)
 
+### It fork from ![https://github.com/ceph/ceph-container.git](https://github.com/ceph/ceph-container.git).In future,if it has bugs,please post issues to the github site and someone will lend a hand - ![https://github.com/ceph/ceph-container/issues](https://github.com/ceph/ceph-container/issues).
+
 Ceph-related Docker files.
 
 ## Core Components:
@@ -70,15 +72,3 @@ check the links and updates provided on pull requests.
 # Images workflow
 
 Once your contribution is done and merged in master. Either @Ulexus or @leseb will execute `ceph-docker-workflow.sh`, this will basically compare the content of each tag/branch to master. If any difference is found it will push the appropriate changes in each individual branches. Ultimately new pushed tags will trigger a Docker build on the Docker Hub.
-
-# Video demonstration
-
-## Manually
-
-A recorded video on how to deploy your Ceph cluster entirely in Docker containers is available here:
-
-[![Demo Running Ceph in Docker containers](http://img.youtube.com/vi/FUSTjTBA8f8/0.jpg)](http://youtu.be/FUSTjTBA8f8 "Demo Running Ceph in Docker containers")
-
-## With Ansible
-
-[![Demo Running Ceph in Docker containers with Ansible](http://img.youtube.com/vi/DQYZU1VsqXc/0.jpg)](http://youtu.be/DQYZU1VsqXc "Demo Running Ceph in Docker containers with Ansible")
